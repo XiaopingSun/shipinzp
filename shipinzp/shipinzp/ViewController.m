@@ -182,9 +182,9 @@
     
     
     UserRegisteredViewController *userRegisteredVC = [[UserRegisteredViewController alloc] init];
+    UINavigationController *userRegisteredNC = [[UINavigationController alloc] initWithRootViewController:userRegisteredVC];
     
-    
-    [self presentViewController:userRegisteredVC animated:YES completion:^{
+    [self presentViewController:userRegisteredNC animated:YES completion:^{
         
         
     }];

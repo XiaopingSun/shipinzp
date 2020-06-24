@@ -12,7 +12,6 @@
 		9B11FC7E24A2ED0C00EFA748 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B11FC7C24A2ED0C00EFA748 /* Main.storyboard */; };
 		9B215F5724A1FB3200238C09 /* SPAFNetTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B215F5624A1FB3200238C09 /* SPAFNetTool.m */; };
 		9BA4A7C124A085DE0034BDB0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA4A7C024A085DE0034BDB0 /* AppDelegate.m */; };
-		9BA4A7C424A085DE0034BDB0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA4A7C324A085DE0034BDB0 /* SceneDelegate.m */; };
 		9BA4A7C724A085DE0034BDB0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA4A7C624A085DE0034BDB0 /* ViewController.m */; };
 		9BA4A7CC24A085E10034BDB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BA4A7CB24A085E10034BDB0 /* Assets.xcassets */; };
 		9BA4A7CF24A085E10034BDB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BA4A7CD24A085E10034BDB0 /* LaunchScreen.storyboard */; };
@@ -69,8 +68,6 @@
 		9BA4A7BC24A085DE0034BDB0 /* shipinzp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shipinzp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA4A7BF24A085DE0034BDB0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9BA4A7C024A085DE0034BDB0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9BA4A7C224A085DE0034BDB0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		9BA4A7C324A085DE0034BDB0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		9BA4A7C524A085DE0034BDB0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9BA4A7C624A085DE0034BDB0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9BA4A7CB24A085E10034BDB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -177,8 +174,6 @@
 				9BBC5A0424A0AACA004E7DF4 /* image */,
 				9BA4A7BF24A085DE0034BDB0 /* AppDelegate.h */,
 				9BA4A7C024A085DE0034BDB0 /* AppDelegate.m */,
-				9BA4A7C224A085DE0034BDB0 /* SceneDelegate.h */,
-				9BA4A7C324A085DE0034BDB0 /* SceneDelegate.m */,
 				9BA4A7C524A085DE0034BDB0 /* ViewController.h */,
 				9BA4A7C624A085DE0034BDB0 /* ViewController.m */,
 				9B11FC7C24A2ED0C00EFA748 /* Main.storyboard */,
@@ -538,7 +533,6 @@
 				9BBC5A3524A1F5A6004E7DF4 /* UserBasicInformationViewController.m in Sources */,
 				9BA4A7D224A085E10034BDB0 /* main.m in Sources */,
 				9B215F5724A1FB3200238C09 /* SPAFNetTool.m in Sources */,
-				9BA4A7C424A085DE0034BDB0 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,8 +703,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2TP34G2MM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = shipinzp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -728,8 +724,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W2TP34G2MM;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = shipinzp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
