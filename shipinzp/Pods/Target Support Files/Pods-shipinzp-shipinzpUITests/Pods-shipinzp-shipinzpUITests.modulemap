@@ -1,0 +1,6 @@
+framework module Pods_shipinzp_shipinzpUITests {
+  umbrella header "Pods-shipinzp-shipinzpUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
